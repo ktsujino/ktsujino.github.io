@@ -1,0 +1,12 @@
+# Site settings
+title: Memorandum
+email: kosuke_tsujino
+description: > # this means to ignore newlines until "baseurl:"
+  技術メモや雑多なアイディアなど。
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://ktsujino.github.io/" # the base hostname & protocol for your site
+twitter_username: kosuke_tsujino
+github_username:  ktsujino
+
+# Build settings
+markdown: kramdown
