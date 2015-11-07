@@ -46,10 +46,10 @@ USのIT企業の多くや、日本のIT企業の一部はエンジニアの採�
 
 - 入力として、整数の配列と、ターゲットとなる数が1つ与えられる。和がターゲットの数となるような2つの数を配列から探せ。 (cited from [here](https://leetcode.com/problems/two-sum/))
 - 次の命令を効率的に備えたデータ構造を考え実装せよ。なお、popmid()はオプション問題とする。(cited from [here](https://preferred.jp/career/engineer))
- - add(x) 整数xを登録する
- - popmin() 登録されている整数のうち最小の整数を返し、その要素を消す
- - popmax() 登録されている整数のうち最大の整数を返し、その要素を消す
- - popmid() 登録されている整数の中央値（整数を小さい順に並べた時に中央に来る値）を返し、その要素を消す
+  - add(x) 整数xを登録する
+  - popmin() 登録されている整数のうち最小の整数を返し、その要素を消す
+  - popmax() 登録されている整数のうち最大の整数を返し、その要素を消す
+  - popmid() 登録されている整数の中央値（整数を小さい順に並べた時に中央に来る値）を返し、その要素を消す
 
 その他補足です。
 
@@ -72,11 +72,11 @@ USのIT企業の多くや、日本のIT企業の一部はエンジニアの採�
 - [アルゴリズム設計マニュアル](http://www.amazon.co.jp/gp/product/4621085107)
 
 #### 問題集
-- http://careercup.com/ (会社ごとの問題例集あり)
-- http://www.glassdoor.com/ (会社ごとの問題例集あり)
-- https://leetcode.com/ (汎用問題集+オンラインジャッジ)
-- https://www.topcoder.com/ (競技プログラミングサイト 英語)
-- http://atcoder.jp/ (競技プログラミングサイト 日本語)
+- [http://careercup.com/](http://careercup.com/) (会社ごとの問題例集あり)
+- [http://www.glassdoor.com/](http://www.glassdoor.com/) (会社ごとの問題例集あり)
+- [https://leetcode.com/](https://leetcode.com/) (汎用問題集+オンラインジャッジ)
+- [https://www.topcoder.com/](https://www.topcoder.com/) (競技プログラミングサイト 英語)
+- [http://atcoder.jp/](http://atcoder.jp/) (競技プログラミングサイト 日本語)
 
 #### 補遺
 - 上記情報は書籍やWeb上のリソースからまとめたもので、特定の会社の選考に対して言及したものではありません。
