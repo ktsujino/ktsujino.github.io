@@ -5,20 +5,79 @@ date:   2015-11-07 10:01:50
 categories: 
 ---
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+### 趣旨
 
-Jekyll also offers powerful support for code snippets:
+楽しみながらスキルアップすることを目的に、互いに模擬コーディング面接をし合いませんか?
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+### 背景
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
+USのIT企業の多くや、日本のIT企業の一部はエンジニアの採用にあたってホワイトボードコーディングを伴う面接をします。
+特にUSの、いわゆるシリコンバレー系の企業ではコーディング面接の出来が採用判断に大きな影響を及ぼします。 
+[シリコンバレー面接体験(SlideShare)](http://www.slideshare.net/paiza_official/ss-42702699)などを見るとおよその雰囲気がつかめると思います。
 
-[jekyll]:      http://jekyllrb.com
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-help]: https://github.com/jekyll/jekyll-help
+時間が限られた中で高いプレッシャーがある、ライブラリ等のリファレンスが見られない、コンパイルしたり実行したりしてデバッグすることができない等の要因のために、コーディング面接には日常のコーディングとは違う技術が要求されます。
+多少の慣れがないと、簡単な問題でも面接の場でまともなコードを書くことは非常に難しいです!
+
+コーディング面接スキルを訓練するのにはある程度の期間が必要で、急に採用選考に応募する必要が生じるケース(レイオフとか)等を考えると日常から多少の訓練をしておくことは有益だと思います。
+また、アルゴリズムなどの抽象思考や知的瞬発力を磨くための知的ゲームとしても楽しめるのではないかと思います。
+
+### イベントとしてのスタイル(案)
+
+2~4名程度で集まり、役割を入れ替えながら20~30分程度のセッションを数回やります。
+
+1名が面接官役、1名が候補者役になり、残りの参加者は観戦します。
+
+想定するセッションの流れは以下のとおりです。
+
+1. 面接官が口頭で問題を説明する。最初の説明には曖昧な部分が意図的に含まれている場合もある。
+2. 候補者は問題の不明点について適宜質問する。
+3. 候補者は回答案を考える。考えている最中、できるだけ思考は口に出したほうがよい。難しい問題の場合は面接官はこの段階で適宜ヒントを与えてもよい。
+4. optional: 候補者は記述するつもりのコードの概要を疑似コードや簡単な図で説明する
+5. 候補者はコードを書く。書く途中や書き終わった後で人手デバッグする。
+6. 面接官はコードについて候補者に質問をする。典型的な質問は以下。
+   - バグはない?
+   - 時間計算量・空間計算量は?
+   - どうやってテストする?
+   - アルゴリズムとしてもっとよい方法はある?
+   - コード品質の面でもっとよい書き方はある?
+7. 模擬面接終了。観戦者も含めてよかった点・悪かった点などの感想戦。
+
+問題例は以下のような感じです。
+
+- 入力として、整数の配列と、ターゲットとなる数が1つ与えられる。和がターゲットの数となるような2つの数を配列から探せ。 (cited from [here](https://leetcode.com/problems/two-sum/))
+- 次の命令を効率的に備えたデータ構造を考え実装せよ。なお、popmid()はオプション問題とする。(cited from [here](https://preferred.jp/career/engineer))
+ - add(x) 整数xを登録する
+ - popmin() 登録されている整数のうち最小の整数を返し、その要素を消す
+ - popmax() 登録されている整数のうち最大の整数を返し、その要素を消す
+ - popmid() 登録されている整数の中央値（整数を小さい順に並べた時に中央に来る値）を返し、その要素を消す
+
+その他補足です。
+
+- 1回の面接セッションはたいてい40分~60分程度ですが、他の質問もするので1つのコーディング問題に費やす時間は15~30分程度だと思います。
+- プログラミング言語は特に指定されないことも多いです。Python, Java, C++のいずれかがみんななんとなく読めて無難かなと思います。
+- 標準ライブラリの引数順などは厳密に覚えてなくて大丈夫ですが、基本的な文法があまり大きく間違っていると面接でも印象はよくないと思います。
+- データ構造とアルゴリズムの基本は勉強しておいたほうが楽しめると思います: ランダウのO表記、配列、連結リスト、二分木、二分探索木、二分探索、ハッシュテーブル、クイックソート、マージソート、グラフの深さ優先探索と幅優先探索、動的計画法など。
+- 実際の面接では問題が解けたか解けないかだけで合否を判断されるわけではないそうです。コミュニケーション能力や思考のキレやコンピュータサイエンスの基礎理解を鍛える、試す場と考えるのがよいと思います。
+- 自主練をする場合は下記教科書を読んだり問題集を解くのがよいと思います。
+
+### リソース
+
+#### 雰囲気をつかむ読み物
+- [シリコンバレー面接体験(SlideShare)](http://www.slideshare.net/paiza_official/ss-42702699) (再掲)
+- [Google の面接を受けてみた(ブログ記事)](http://shiumachi.hatenablog.com/entry/20090122/1232574613)
+- [エンジニアとして世界の最前線で働く選択肢(書籍)](http://www.amazon.co.jp/gp/product/B01626P712)
+
+#### 教科書
+- [世界で闘うプログラミング力を鍛える150問(書籍)](http://www.amazon.co.jp/gp/product/B00HR19TSO) : これを読むと基本的に全てが分かります
+- [アルゴリズム設計マニュアル](http://www.amazon.co.jp/gp/product/4621085107)
+
+#### 問題集
+- http://careercup.com/ (会社ごとの問題例集あり)
+- http://www.glassdoor.com/ (会社ごとの問題例集あり)
+- https://leetcode.com/ (汎用問題集+オンラインジャッジ)
+- https://www.topcoder.com/ (競技プログラミングサイト 英語)
+- http://atcoder.jp/ (競技プログラミングサイト 日本語)
+
+#### 補遺
+- 上記情報は書籍やWeb上のリソースからまとめたもので、特定の会社の選考に対して言及したものではありません。
+  私が模擬面接セッションに参加した場合にも、過去に受けた会社など特定の会社の選考についてヒントを与えることはありません。
