@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "Yahoo データサイエンスワークショップ"
+title:  "Yahoo! JAPANデータサイエンスワークショップ"
 date:   2015-11-09 22:00:00
 categories: 
 ---
 
-# Yahoo データサイエンスワークショップ
+# Yahoo! JAPANデータサイエンスワークショップ
 
-高倍率の抽選が運良く当たって[Yahoo データサイエンスワークショップ](http://yahoo-ds-event.connpass.com/event/21903/)に行ってきました。
+高倍率の抽選が運良く当たって[Yahoo! JAPANデータサイエンスワークショップ](http://yahoo-ds-event.connpass.com/event/21903/)に行ってきました。
 内容の簡単なメモです。 (不正確なところもあるかも)
 
 ## イントロ 塚本さん
