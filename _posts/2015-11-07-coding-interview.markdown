@@ -74,7 +74,8 @@ USのIT企業の多くや、日本のIT企業の一部はエンジニアの採�
 #### 問題集
 - [http://careercup.com/](http://careercup.com/) (会社ごとの問題例集あり)
 - [http://www.glassdoor.com/](http://www.glassdoor.com/) (会社ごとの問題例集あり)
-- [https://leetcode.com/](https://leetcode.com/) (汎用問題集+オンラインジャッジ)
+- [https://leetcode.com/](https://leetcode.com/) (問題集+オンラインジャッジ)
+- [https://www.codeeval.com/](https://www.codeeval.com/) (問題集+オンラインジャッジ)
 - [https://www.topcoder.com/](https://www.topcoder.com/) (競技プログラミングサイト 英語)
 - [http://atcoder.jp/](http://atcoder.jp/) (競技プログラミングサイト 日本語)
 
